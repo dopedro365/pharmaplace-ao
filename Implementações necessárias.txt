@@ -1,0 +1,27 @@
+Implementações necessárias
+O sistema deve enviar notificação no sistema emitindo som também.
+
+As notificações de compra devem ser mesmo em tempo real no sistema e recebendo também mensagens...
+
+Quanto ao processo de apresentação de disponibilidade de entega, as farmacias vão definir preços únicos por municipios e horas especificas do dia para entegas, Caso o cliente quiser uma entrega urgente, terá uma nota indicando para ligar para a farmácia com o numero comercial exposto( isso só estará a acontecer com aquelas farmácias que fazem entregas).
+
+O sistema não terá recurso de acompanhamento de entrega.
+O sistem não terá valiação nem de produtos nem de farmácias. nem comentários
+Não será preciso calculo de frete porque o preço da entrega será definido com base na localidade do cliente. após ele inserí seus dados para a entrega, o sistema dirá.
+
+
+sem Indicadores de qualidade
+sem Sistema de avaliação
+
+
+""Cannot declare class App\Filament\Pages\OrdersPage, because the name is already in use" "Route [filament.painel.pages.product-create] not defined." "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_amount' in 'field list' (Connection: mysql, SQL: select sum(`total_amount`) as aggregate from `orders` where date(`created_at`) = 2025-07-12 and `status` = completed)" "Route [filament.painel.pages.category-create] not defined."  "Cannot declare class App\Filament\Pages\PaymentsPage, because the name is already in use"  "htmlspecialchars(): Argument #1 ($string) must be of type string, array given -- "checkout"". ajude a resolver esses probleminhas e criar as resurces de controle de usuarios e farmacias para o admin. quanto a questõa de aprovação, download de docuemtao da farmacia. coloca na view de viluzaciaco opcao para baixar o docuemnto deles, mesmo na lista da tabela colque o grouAction onde tambem terá a opção de aprvar, baixar o documento e outros necessários. Pour outra, me ajude a criar um escopo semelhante ao anexado e as policies da s pages. definidndo já quem terá acesso para algumas e quem não terá. o que alguem terá acesso e o que outrs não terão. naas views de farmaia e explorar. as margens do elemnto blade não foram bem aplicdas, icons tambem alguns não se encontram nos sitios certo. algumas coisas não devefiam existir, como a questão de avaliação ou mais avaliados, isso nos filtros de pesquisa. "
+
+Ver  questão do manifest no "npm run dev" executar o npm install
+
+
+Seguir o programa de 30 dias de criação do projecto
+Após execuar esse text "
+"Cannot declare class App\Filament\Pages\OrdersPage, because the name is already in use" "Route [filament.painel.pages.product-create] not defined." "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total_amount' in 'field list' (Connection: mysql, SQL: select sum(`total_amount`) as aggregate from `orders` where date(`created_at`) = 2025-07-12 and `status` = completed)" "Route [filament.painel.pages.category-create] not defined."  "Cannot declare class App\Filament\Pages\PaymentsPage, because the name is already in use"  "htmlspecialchars(): Argument #1 ($string) must be of type string, array given -- "checkout"". ajude a resolver esses probleminhas e criar as resurces de controle de usuarios e farmacias para o admin. quanto a questõa de aprovação, download de docuemtao da farmacia. coloca na view de viluzaciaco opcao para baixar o docuemnto deles, mesmo na lista da tabela colque o grouAction onde tambem terá a opção de aprvar, baixar o documento e outros necessários. Pour outra, me ajude a criar um escopo semelhante ao anexado e as policies da s pages. definidndo já quem terá acesso para algumas e quem não terá. o que alguem terá acesso e o que outrs não terão. naas views de farmaia e explorar. as margens do elemnto blade não foram bem aplicdas, icons tambem alguns não se encontram nos sitios certo. algumas coisas não devefiam existir, como a questão de avaliação ou mais avaliados, isso nos filtros de pesquisa. "
+anexando o scope e scopeprovider do prjecto do ramplus e o UserResource para copia a forma como eles são, cuidar do Auth. login register e  resto.
+
+entar novamente devolver as paginas de vendas e compra fora do painel, copiando o desing classico como de qualquer outra plataforma a procurar de ecomerce ou da kubeta.

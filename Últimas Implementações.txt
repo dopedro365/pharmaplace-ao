@@ -1,0 +1,4 @@
+Finalização de pedido (sem api e extração dos dados do comprovativo) - verificação do IBAN, Valor e data por conta da Farmácia
+Notificação (email, database): alteração do status do pedido, criação de pedido, criação de farmácia...
+Login
+Aptovação de pedido, Cancelamento de pedido
